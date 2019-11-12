@@ -10,3 +10,7 @@ despues ya puedo ponerme a maquetar ya dentro de footer,
 - navbar <app-navbar></app-navbar>
 - rooter-outlet: aqui van el resto de componentes de dentro
 - footer: <app-footer></app-footer>
+
+3. Arrancar proyecto pàra previsualizarlo
+
+- ng serve ( tarda un buen rato  y termina dando el http://localhost:4200/)
