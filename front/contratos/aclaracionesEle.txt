@@ -1,1 +1,0 @@
- 1. para generar nuevos componentes o partes con sus carpetitas, hay que poner en terminal: ng generate component footer (por ejemplo), eso hace que pueda cargar y previsualizar y maquetarlo.
