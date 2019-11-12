@@ -1,0 +1,12 @@
+1. Crear componente:
+- abrir la consola en "contratos"
+- ng generate component footer,
+despues ya puedo ponerme a maquetar ya dentro de footer,
+- el archivo spec.ts es un archivo para hacer pruebas
+- el archivo component.ts es de javascripts
+
+2. Añadir componentes a app.component.html:
+
+- navbar <app-navbar></app-navbar>
+- rooter-outlet: aqui van el resto de componentes de dentro
+- footer: <app-footer></app-footer>
