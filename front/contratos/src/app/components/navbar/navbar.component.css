@@ -1,4 +1,4 @@
-/* --- estilo del navbar --- */
+/* --- estilo del navbar generales--- */
 header>nav{
 
   z-index: 3001;
@@ -25,7 +25,7 @@ a{
   color: #ededed;
   font-weight: 100
 }
-/* --- navbar ends --- */
+/* --- navbar ends generales --- */
 
 
 

@@ -5,3 +5,49 @@
   color: #f1f1f1;
   font-family: 'IBM Plex Mono', monospace;
 }
+
+body{
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+button:focus {
+  outline: transparent;
+  outline: transparent;
+}
+a{
+
+  color: #f1f1f1;
+}
+
+
+a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: #9CCFD9
+}
+
+.centrarr{
+  margin: auto;
+}
+
+.centrarflex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p{
+  font-size: 0.8em;
+}
+
