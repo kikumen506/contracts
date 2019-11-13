@@ -9,11 +9,14 @@
 body{
   margin:0;
   padding:0;
+  margin-bottom: 40px;
 
 }
 
 html{
   scroll-behavior: smooth;
+  min-height: 100%;
+  position: relative;
 }
 
 button:focus {
@@ -21,10 +24,8 @@ button:focus {
   outline: transparent;
 }
 a{
-
   color: #f1f1f1;
 }
-
 
 a:hover{
   cursor: pointer;
