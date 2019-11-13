@@ -3,8 +3,9 @@
 .footer{
   background-color: #0d233a;
   border-top: 3px solid #fff;
-
-
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .redes>ul{
