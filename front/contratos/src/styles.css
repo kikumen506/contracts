@@ -1,9 +1,9 @@
 /* You can add global styles to this file, and also import other style files ESTILOS GENERALES DE LA WEB */
 
 *{
-  background-color: #131313;
+  background-color: #0D233A;
   color: #f1f1f1;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Poppins', sans-serif;
 }
 
 body{
