@@ -1,15 +1,12 @@
 
-.regis2{
-
-
-width: 100%;
+.textoContrato{
+  border: 3px solid #f1f1f1;
+}
+.enlacesRegis2{
+  text-decoration: underline !important;
+}
+.formRegist2{
+  padding: 20px;
 }
 
-.formRegis2{
-  border: 3px solid white;
-  padding: 2em;
 
-}
-.bloq1reg{
-
-}
