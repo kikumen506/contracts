@@ -1,0 +1,22 @@
+1. Crear componente:
+- abrir la consola en "components"
+- ng generate component footer,
+despues ya puedo ponerme a maquetar ya dentro de footer,
+- el archivo spec.ts es un archivo para hacer pruebas
+- el archivo component.ts es de javascripts
+
+2. Añadir componentes a app.component.html:
+
+- navbar <app-navbar></app-navbar>
+<app-login1></app-login1>
+- rooter-outlet: aqui van el resto de componentes de dentro
+- footer: <app-footer></app-footer>
+
+3. Arrancar proyecto pàra previsualizarlo
+
+- ng serve ( tarda un buen rato  y termina dando el http://localhost:4200/) en consola abriendola desde "contratos"
+
+- en app.module.ts, se tendria que cambiar la url en el caso de mover un archivo de sitio, porque si no el paso 3 no te dejaria ejecutar
+
+color: #0D233A
+

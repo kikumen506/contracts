@@ -1,0 +1,24 @@
+
+.textoContrato{
+  border: 1px solid #f1f1f1da;
+
+  padding: 20px;
+}
+.enlacesRegis2{
+  text-decoration: underline !important;
+}
+.formRegist2{
+  padding: 20px;
+  margin-bottom: 70em;
+
+}
+.form-control{
+  border-radius: 20px;
+}
+.botonRegis2{
+  border:2px solid #f1f1f1;
+  border-radius: 20px;
+  color: #f1f1f1;
+}
+
+

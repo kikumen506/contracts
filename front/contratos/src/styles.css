@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files ESTILOS GENERALES DE LA WEB */
+
+
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  background-color: #0D233A;
+  color: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  background-image: url(../src/assets/img/Tokenblanco20opacidad.svg);
+  background-repeat: no-repeat;
+  background-size: 88em;
+  background-position: 120% -9% ;
+  height: 100vh;
+}
+
+html{
+  scroll-behavior: smooth;
+  min-height: 100%;
+  position: relative;
+}
+
+button:focus {
+  outline: transparent;
+  outline: transparent;
+}
+a{
+  color: #f1f1f1;
+}
+
+a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: #9CCFD9
+}
+
+.centrarr{
+  margin: auto;
+}
+
+.centrarflex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p{
+  font-size: 0.8em;
+}
+

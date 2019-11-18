@@ -1,0 +1,33 @@
+/* --- estilo del navbar generales--- */
+header>nav{
+
+  z-index: 3001;
+}
+.darkBlue{
+  background: #0d233a;
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+i{
+  color: #fff;
+  padding: 0 auto
+}
+.logo>img{
+  width: 150px;
+  height: 50px;
+}
+.fnfdd{
+  font-weight: 500 !important;
+
+}
+a{
+  color: #ededed;
+  font-weight: 100
+}
+/* --- navbar ends generales --- */
+
+
+
+
+

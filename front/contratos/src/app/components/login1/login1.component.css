@@ -1,0 +1,23 @@
+
+.titLogin{
+  width: 100;
+}
+.textoLogin{
+  text-align: center;
+  width: 100;
+}
+.enlacesLogin1{
+  text-decoration: underline !important;
+}
+.imglogoLogin1>img{
+  width: 10%;
+}
+.form-control{
+  border-radius: 20px;
+}
+.botonLogin1{
+  border: 2px solid #f1f1f1;
+  border-radius: 20px;
+  color: #f1f1f1;
+  font-weight: 700;
+}
