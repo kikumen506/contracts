@@ -1,7 +1,7 @@
 
 .textoContrato{
-  border: 3px solid #f1f1f1;
-  border-radius: 20px;
+  border: 1px solid #f1f1f1da;
+
   padding: 20px;
 }
 .enlacesRegis2{
@@ -9,7 +9,7 @@
 }
 .formRegist2{
   padding: 20px;
-  margin-bottom: 80em;
+  margin-bottom: 70em;
 
 }
 .form-control{
