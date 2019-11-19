@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-registro2',
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./registro2.component.css']
 })
 export class Registro2Component implements OnInit {
-
+  nombre = new FormControl('');
+  form: FormGroup;
   constructor() { }
 
   ngOnInit() {
