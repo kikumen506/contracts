@@ -8,6 +8,12 @@ import { FormGroup, FormControl } from '@angular/forms';
 })
 export class Registro2Component implements OnInit {
   nombre = new FormControl('');
+  apellido = new FormControl('');
+  IDCode = new FormControl('');
+  BTN = new FormControl('');
+  IDEthereum = new FormControl('');
+  Fecha = new FormControl('');
+  Email = new FormControl('');
   form: FormGroup;
   constructor() { }
 
