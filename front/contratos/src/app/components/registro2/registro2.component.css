@@ -1,15 +1,17 @@
 
 .textoContrato{
   border: 1px solid #f1f1f1da;
-
+  font-weight: 300;
   padding: 20px;
+  position: relative;
+  left: 10em;
 }
 .enlacesRegis2{
   text-decoration: underline !important;
 }
 .formRegist2{
   padding: 20px;
-  margin-bottom: 70em;
+  margin-bottom: 140em;
 
 }
 .form-control{
@@ -20,13 +22,30 @@
   border-radius: 20px;
   color: #f1f1f1;
 }
+.privacyEnlace{
+  text-decoration: underline !important;
+}
+.letraPeque{
+  font-size: 0.6em;
+}
+.titloContrt{
+  font-size: 1em;
+}
 
 @media (min-width: 320px) and (max-width: 1023px){
   .textoContrato{
     position: relative;
     bottom: 80em;
+    left: 4em;
 
   }
+  .formRegist2{
+
+    margin-bottom: 80em;
+
+  }
+
+
 }
 
 
