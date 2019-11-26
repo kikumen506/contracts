@@ -1,4 +1,6 @@
 
+
+
 .textoContrato{
   border: 1px solid #f1f1f1da;
   font-weight: 300;
@@ -38,6 +40,9 @@
     bottom: 80em;
     left: 4em;
 
+  }
+  .Regis2sec{
+    margin-bottom: -20em;
   }
   .formRegist2{
 

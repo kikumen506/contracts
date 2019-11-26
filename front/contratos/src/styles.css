@@ -6,7 +6,6 @@ body{
   margin:0;
   padding:0;
   box-sizing: border-box;
-  margin-bottom: 40px;
   background-color: #0D233A;
   color: #f1f1f1;
   font-family: 'Poppins', sans-serif;
@@ -15,7 +14,7 @@ body{
   background-repeat: no-repeat;
   background-size: 88em;
   background-position: 120% -9% ;
-  height: 100vh;
+
 }
 
 html{

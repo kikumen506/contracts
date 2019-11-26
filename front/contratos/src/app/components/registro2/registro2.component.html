@@ -1,4 +1,4 @@
-<section class="login1sec">
+<section class="Regis2sec">
 
 
   <br>
@@ -26,10 +26,10 @@
 
         <div class="row">
           <div class="col">
-            <input type="text" class="form-control" [formControl]= "nombre" placeholder="ID/Passport">
+            <input type="text" class="form-control" [formControl]= "IDCode" placeholder="ID/Passport">
           </div>
           <div class="col">
-            <input type="text" class="form-control" [formControl]= "apellido" placeholder="Date of Bith">
+            <input type="text" class="form-control" [formControl]= "Fecha" placeholder="Date of Bith">
           </div>
         </div>
     <br>
@@ -37,10 +37,10 @@
 
         <div class="row">
             <div class="col">
-              <input type="text" class="form-control" [formControl]= "IDCode" placeholder="Name">
+              <input type="text" class="form-control" [formControl]= "nombre" placeholder="Name">
             </div>
             <div class="col">
-              <input type="text" class="form-control" [formControl]= "BTN" placeholder="Last Name">
+              <input type="text" class="form-control" [formControl]= "apellido" placeholder="Last Name">
             </div>
           </div>
     <br>
@@ -48,10 +48,10 @@
 
         <div class="row">
             <div class="col">
-                <input type="text" class="form-control" [formControl]= "IDEthereum" placeholder="email">
+                <input type="text" class="form-control" [formControl]= "Email" placeholder="email">
             </div>
             <div class="col">
-                <input type="text" class="form-control" [formControl]= "Fecha" placeholder=" Amount of BTC">
+                <input type="text" class="form-control" [formControl]= "BTN" placeholder=" Amount of BTC">
             </div>
         </div>
     <br>
@@ -59,7 +59,7 @@
 
         <div class="row">
             <div class="col">
-              <input type="text" class="form-control" [formControl]= "Email" placeholder="ETH Address">
+              <input type="text" class="form-control" [formControl]= "IDEthereum" placeholder="ETH Address">
             </div>
 
         </div>
@@ -109,7 +109,7 @@
           </p>
 
           <p class="text-justify">
-             THIS CERTIFIES THAT in exchange for the payment by the undersigned purchaser with ID/Passport___________________,       date       of       birth_____________       ,       name__________________________________________________(the <span class="font-weight-bold">“Purchaser”</span>)  with the ETHaddress of _______________________________ of ______________ BTC (the <span class="font-weight-bold">“Purchase Amount”</span>) o the wallet with the address “1ChAWP4UtotUnaXNDe1quyJVppptYK2gXg”, Block-Invest a corporation (the “Company”), hereby issues to the Purchaser the right (the <span class="font-weight-bold">“Right”</span>) tocertain units of ______________ BKI <!-- calculadora --> (the <span class="font-weight-bold">“Token”</span> or <span class="font-weight-bold">“BKI”</span>), subject to the terms set forth below. <br>
+             THIS CERTIFIES THAT in exchange for the payment by the undersigned purchaser with ID/Passport____{{ IDCode.value }}____, date  of birth___{{ Fecha.value }} __ , name____{{ nombre.value }}__{{ apellido.value }}__(the <span class="font-weight-bold">“Purchaser”</span>)  with the ETHaddress of ___{{ IDEthereum.value }}___ of ___{{ BTN.value }}___ BTC (the <span class="font-weight-bold">“Purchase Amount”</span>) o the wallet with the address “1ChAWP4UtotUnaXNDe1quyJVppptYK2gXg”, Block-Invest a corporation (the “Company”), hereby issues to the Purchaser the right (the <span class="font-weight-bold">“Right”</span>) tocertain units of ______________ BKI <!-- meter calculadora: lucia sabe el cáculo --> (the <span class="font-weight-bold">“Token”</span> or <span class="font-weight-bold">“BKI”</span>), subject to the terms set forth below. <br>
             <br>
             1.   <span class="font-weight-bold">Events</span> <br>
             <br>
@@ -131,7 +131,7 @@
 
             3.  <span class="font-weight-bold">Company Representations</span><br>
             <br>
-            (a)  The Company is a corporation duly organized, validly existing and in good standing under the laws of [Cayman Islands], and has the power and authority to own, lease and operate its properties and carry on its business as now conducted. <br>
+            (a)  The Company is a corporation duly organized, validly existing and in good standing under the laws of Cayman Islands/ Gibraltar, and has the power and authority to own, lease and operate its properties and carry on its business as now conducted. <br>
             <br>
 
             (b)  The execution, delivery and performance by the Company of this instrument is within the power of the Company and, other than with respect to the actions to be taken when Tokens are to be issued to the Purchaser, has been duly authorized by all necessary actions on the part of   the   Company.  This   instrument   constitutes   a   legal,   valid   and   binding   obligation   of   the Company, enforceable against the Company in accordance with its terms, except as limited by bankruptcy,   insolvency   or   other   laws   of   general   application   relating   to   or   affecting   the enforcement of creditors’ rights generally and general principles of equity.  To the knowledge of the Company, it is not in violation of (i) its current articles of incorporation or bylaws, (ii) any material statute, rule or regulation applicable to the Company, or (iii) any material indenture or contract to which the Company is a party or by which it is bound, where, in each case, such violation or default, individually, or together with all such violations or defaults, could reasonably be expected to have a material adverse effect on the Company. <br>
